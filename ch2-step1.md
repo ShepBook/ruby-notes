@@ -1,6 +1,5 @@
-**Strings and Embedded Evaluation**
-
-=====
+Strings and Embedded Evaluation
+===
 
 **puts 'hello world'**
 
