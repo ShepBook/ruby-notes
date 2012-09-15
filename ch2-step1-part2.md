@@ -76,3 +76,21 @@ ob = MyClass.new
 * Then, we call the ```MyClass.new``` part.
   * ```MyClass``` is the name of the class we just defined.
   * ```.new``` says that ```ob``` is a "new object" of the ```MyClass``` type.
+
+Once we create the object with ```ob = MyClass.new``` we can tell ```ob``` to do the ```saysomething``` method, like so.
+
+```
+ob.saysomething
+```
+
+**Method Syntax**
+
+* Must begin with ```def``` and ends with ```end```.
+* Can take an argument, after the method name and contained in parenthesis, like ```def showstring( some_argument )```.
+* There can be multiple arguments, like ```def showthing( thing1, thing2 )```. Just separate the arguments by commas.
+* Parenthesis are optional, but they make reading the program easier. They can also prevent ambiguity.
+* The ```return``` part is evaluated and is what the method returns or outputs when it is called.
+* If there is no ```return``` keyword, the last expression that was evaluated in the method is returned.
+* All methods are a part of the ```main``` class, even if not specified explicitly. This is true, even if the methods are not explicitly part of another class.
+
+**stopped at 4:30**
