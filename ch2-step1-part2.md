@@ -93,4 +93,7 @@ ob.saysomething
 * If there is no ```return``` keyword, the last expression that was evaluated in the method is returned.
 * All methods are a part of the ```main``` class, even if not specified explicitly. This is true, even if the methods are not explicitly part of another class.
 
-**stopped at 4:30**
+**Main Object**
+* All methods fall under the ```main``` object.
+* It is created from Ruby's ```object``` class.
+* The ```object``` class contains many methods of its own, as well as methods you write without a class.
